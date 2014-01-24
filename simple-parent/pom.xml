@@ -11,11 +11,11 @@
     <name>Multi-Spring Chapter Simple Parent Project</name>
 
     <modules>
-        <!--<module>simple-command</module>-->
+        <module>simple-command</module>
         <module>simple-model</module>
         <module>simple-weather</module>
         <module>simple-persist</module>
-        <!--<module>simple-webapp</module>-->
+        <module>simple-webapp</module>
     </modules>
 
     <build>

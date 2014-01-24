@@ -11,7 +11,7 @@ import javax.persistence.NamedQuery;
 
 @Entity
 @NamedQueries({
-        @NamedQuery(name = "Location.uniqueByZip", query = "from location l where l.zip = :zip")
+        @NamedQuery(name = "Location.uniqueByZip", query = "from Location l where l.zip=:zip")
 })
 public class Location {
 
